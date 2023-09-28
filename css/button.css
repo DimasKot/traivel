@@ -1,0 +1,46 @@
+.button {
+    background-color: #7B61FF;
+    border-radius: 12px;
+    color: #fff;
+    transition: backgtound-color 0.2s ease-in;
+}
+.button:hover {
+background-color:#6344ff ;
+}
+.button--huge {
+    padding: 24px;
+    font-size:18px;
+    font-weight: 600;
+    display: flex;
+    column-gap :8px; 
+    align-items: center;
+}
+
+.button--search {
+    background-color: #6344ff;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+}
+/*button--subscribe*/
+.button--subscribe {
+    width: 72px;
+    height: 72px;
+    padding: 28px;
+}
+/*button more*/
+.button-more {
+    padding: 10px;
+    align-items: center;
+    gap: 4px;
+    height: 44px;
+    background: #f6f4ff;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #5243c2;
+    transition: backgtound-color 0.2s ease-in;
+}
+.button-more:hover {
+    background: #aba3cf;
+}
